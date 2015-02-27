@@ -2,9 +2,9 @@
 <html lang="en">
     <head></head>
     <body>
-        <h1>{{ object.full_name }}, a {{ object.age }} year old, 
-            {{ object.race }} {{ object.gender|lower }} died on {{ object.date }}
-            in a {{ object.type|lower }} at {{ object.address }} in {{ object.neighborhood }}.
+        <h1>{{ object_row.full_name }}, a {{ object_row.age }} year old, 
+            {{ object_row.race }} {{ object_row.gender|lower }} died on {{ object_row.date }}
+            in a {{ object_row.type|lower }} at {{ object_row.address }} in {{ object_row.neighborhood }}.
         </h1>
     </body>
 </html>
